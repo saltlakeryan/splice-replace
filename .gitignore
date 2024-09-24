@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+build
+.idea
+dist
+splice_replace.egg-info
+
