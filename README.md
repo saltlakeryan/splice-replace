@@ -44,7 +44,7 @@ echo "Fozzie Bear" >> myfile.txt
 echo "09" >> myfile.txt
 echo "10 THAT CONCLUDES THE LIST" >> myfile.txt
 
-./splice_replace.py 'sort' myfile.txt 4 1 8 1
+./splice_replace.py 'sort' myfile.txt 4 1 9 1
 ```
 
 Which results in the file:
@@ -54,20 +54,26 @@ Which results in the file:
 03
 Animal
 Beaker
+Fozzie Bear
 Gonzo
 Kermit
-Fozzie Bear
 09
 10 THAT CONCLUDES THE LIST
 ```
 
 ## Installation
 
+### From source:
 ```bash
 git clone
 cd splice-replace
 pip install -r requirements.txt
 python setup.py install
+```
+
+### Using pip:
+```bash
+pip install splice-replace
 ```
 
 ## Motivation

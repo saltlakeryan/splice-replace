@@ -60,6 +60,7 @@ def main():
     #Check if the correct number of arguments are provided
     if len(sys.argv) != 7:
         print("Usage: python3 splice_replace.py <script_to_run> <file_path> <start_line> <start_col> <end_line> <end_col>")
+        sys.exit(1)
 
     # Get the arguments: script_to_run, file_path, start_line, start_col, end_line, end_col
     script_to_run = sys.argv[1]
